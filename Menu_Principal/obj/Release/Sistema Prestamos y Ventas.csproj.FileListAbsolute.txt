@@ -1,0 +1,110 @@
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.exe.config
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.exe
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.pdb
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Clientes.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Facturacion.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.MR.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Pagos.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Productos.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Sistema_de_Prestamos.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Sitema_de_Ventas.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Inicio.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Login.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Menu_Principal.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Properties.Resources.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.exe
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.pdb
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Taza.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Prestamos.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.exe.config
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.exe
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.pdb
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.exe
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.pdb
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Clientes.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Facturacion.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Taza.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.MR.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Prestamos.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Pagos.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Productos.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Sistema_de_Prestamos.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Sitema_de_Ventas.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Inicio.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Login.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Menu_Principal.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Properties.Resources.resources
+F:\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.exe.config
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.exe
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.pdb
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.exe
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\bin\Release\Menu_Principal.pdb
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Clientes.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Facturacion.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Taza.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.MR.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Prestamos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Pagos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Productos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Sistema_de_Prestamos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Sitema_de_Ventas.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Inicio.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Login.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Menu_Principal.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Properties.Resources.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.Frm_Plan_De_Pago.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas\Menu_Principal\obj\Release\Menu_Principal.Forms.FrmTipoIngresos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Release\Menu_Principal.exe.config
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Release\Menu_Principal.exe
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Release\Menu_Principal.pdb
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Clientes.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Facturacion.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.FrmTipoIngresos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Frm_Plan_De_Pago.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Socios.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Taza.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.MR.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Prestamos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Pagos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Productos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Reporte_Ganancias.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Sistema_de_Prestamos.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Sitema_de_Ventas.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Inicio.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Login.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Menu_Principal.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Properties.Resources.resources
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.exe
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.pdb
+D:\Prestamos_BK\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Release\Menu_Principal.exe.config
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.exe
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.pdb
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Release\Menu_Principal.exe
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Release\Menu_Principal.pdb
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Clientes.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Facturacion.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.FrmTipoIngresos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Frm_Plan_De_Pago.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Socios.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Mant_Taza.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.MR.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Prestamos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Pagos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Productos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Reporte_Ganancias.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Sistema_de_Prestamos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Forms.Sitema_de_Ventas.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Inicio.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Login.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Menu_Principal.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Menu_Principal.Properties.Resources.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Release\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache

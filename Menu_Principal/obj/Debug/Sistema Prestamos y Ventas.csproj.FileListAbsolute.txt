@@ -1,0 +1,74 @@
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Debug\Menu_Principal.exe.config
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Debug\Menu_Principal.exe
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\bin\Debug\Menu_Principal.pdb
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.Clientes.resources
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.Facturacion.resources
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.Productos.resources
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.Sitema_de_Ventas.resources
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Menu_Principal.resources
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Properties.Resources.resources
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.exe
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.pdb
+c:\users\operaciones 001\documents\visual studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Sistema_de_Prestamos.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.Pagos.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.Prestamos.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Forms.MR.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Login.resources
+C:\Users\Operaciones 001\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas\Menu_Principal\obj\Debug\Menu_Principal.Inicio.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Menu_Principal.exe.config
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.exe
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.pdb
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Menu_Principal.exe
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Menu_Principal.pdb
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Clientes.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Facturacion.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.FrmTipoIngresos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Frm_Plan_De_Pago.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Mant_Socios.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Mant_Taza.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.MR.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Prestamos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Pagos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Productos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Reporte_Ganancias.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Sistema_de_Prestamos.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Sitema_de_Ventas.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Inicio.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Login.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Menu_Principal.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Properties.Resources.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Datasource\RClientes.sdf
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Reportes.RClientes.resources
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\RdlCompile.cache
+C:\Users\sdgag\Desktop\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\RdlCompile.compiled
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Menu_Principal.exe.config
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.exe
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.pdb
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Sistema Prestamos y Ventas.csprojResolveAssemblyReference.cache
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Clientes.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Facturacion.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.FrmTipoIngresos.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Frm_Plan_De_Pago.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Mant_Socios.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Mant_Taza.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.MR.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Prestamos.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Pagos.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Productos.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Reporte_Ganancias.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Sistema_de_Prestamos.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Forms.Sitema_de_Ventas.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Inicio.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Login.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Menu_Principal.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Properties.Resources.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Menu_Principal.Reportes.RClientes.resources
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\Sistema Prestamos y Ventas.csproj.GenerateResource.Cache
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\RdlCompile.cache
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\obj\Debug\RdlCompile.compiled
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Menu_Principal.exe
+C:\Users\Joyner\Documents\Visual Studio 2012\Projects\Sistema de Prestamos y Ventas_2\Menu_Principal\bin\Debug\Menu_Principal.pdb
