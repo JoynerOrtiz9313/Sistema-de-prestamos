@@ -95,12 +95,36 @@ namespace Menu_Principal
         {
             try
             {
-                GridPagosP.DataSource = DB.GetData("select c.Id_Clientes,p.id_Prestamo,c.Cedula,c.Nombre,c.Apellido,p.Monto,  case (select count(id_cuota) from Cuotas ) when  '0'  then cast ((datediff((d),p.Fecha,GETDATE())/f.dias) as decimal)  else cast ((datediff((d),cu.Fecha,GETDATE())/f.dias) as decimal) end  as Cuotas_Atrasadas from tbl_prestamos  p JOIN taza t on t.id_taza = p.taza join TBL_Clientes c on p.Id_Cliente=c.Id_Clientes join TBL_Frecuencia f on p.Frecuencia=f.Id_Frecuencia join Cuotas cu on p.Id_Prestamo=cu.ID_Prestamo");
+                fillGridPrestamos();
             }
             catch (Exception)
             {
                 
                 throw;
+            }
+        }
+
+        async void fillGridPrestamos() {
+
+            while (true)
+            {
+                GridPagosP.DataSource = DB.GetData(
+                 @"							select c.Id_Clientes,p.id_Prestamo,
+                                c.Cedula,c.Nombre,c.Apellido,p.Monto,
+                                case (select count(id_cuota) from Cuotas) 
+                                when  '0'  then 
+                                                cast ((datediff((d),p.Fecha,GETDATE())/f.dias) as decimal)  
+                                            else 
+                                                cast ((datediff((d),cu.Fecha,GETDATE())/f.dias) as decimal) 
+                                end  as Cuotas_Atrasadas, 
+								p.FechaProximoPago as 'Fecha proximo cobro'
+                            from tbl_prestamos  p 
+                            JOIN taza t on t.id_taza = p.taza 
+                            join TBL_Clientes c on p.Id_Cliente=c.Id_Clientes 
+                            join TBL_Frecuencia f on p.Frecuencia=f.Id_Frecuencia 
+                            left join Cuotas cu on p.Id_Prestamo=cu.ID_Prestamo"
+               );
+               await Task.Delay(6000);
             }
         }
 

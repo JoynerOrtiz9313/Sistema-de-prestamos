@@ -114,8 +114,8 @@ namespace Menu_Principal
             Prestamo Prest = new Prestamo();
             Prest.Fill(_ID);
             dt = new DataTable();
-            DateTime FechaPago = Prest.GetSiguienteFechaPago(); ;
-            DateTime UltFechaPago = Prest.GetSiguienteFechaPago();
+            DateTime FechaPago = Prest.ProximaFehcaCobro; ;
+            DateTime UltFechaPago = Prest.ProximaFehcaCobro.AddDays(-Prest.GetDiasFrecuencia());
             DateTime fechaAlDia = DateTime.Now;
             try
             {

@@ -178,14 +178,17 @@ namespace Menu_Principal.Forms
 
 
                 p.ID_Prestamo = EstePrestamo.ID_Prestamo;
-
+                
                 p.Save();
                 MessageBox.Show("Pago efectuado satisfactoriamente!", "Pago procesado!",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Limpiar();
 
                 DB = new Conexion();
-                DB.ExecuteCMD("exec SP_Act_Prestamos_Pagados");
+                SqlCommand _cmd = new SqlCommand();
+                _cmd.Parameters.Add("@id_Prestamo",SqlDbType.Int).Value = EstePrestamo.ID_Prestamo;
+                _cmd.Parameters.Add("@dias_frecuencia",SqlDbType.Int).Value = EstePrestamo.GetDiasFrecuencia();
+                DB.ExecuteCMD("exec SP_Act_Prestamos_Pagados",_cmd);
 
             }
             catch (Exception es)
@@ -256,7 +259,7 @@ namespace Menu_Principal.Forms
                     }
                     if (EstePrestamo.ID_Prestamo > 0)
                     {
-                        DtFechaPagoAdelantado.Value = EstePrestamo.GetSiguienteFechaPago();
+                        DtFechaPagoAdelantado.Value = EstePrestamo.GetSiguienteFechaPago(false);
                     }
                 }
                 catch (Exception es)

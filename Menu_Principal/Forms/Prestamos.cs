@@ -157,7 +157,7 @@ namespace Menu_Principal.Forms
                 while (MontoTotal > 0)
                 {
                     Pago _p = new Pago();
-                    _p.Monto = MontoTotal /cuotasPendientes;  //SOLO EN ESTE CASO EL MONTO DEL PAGO HACE REFERENCIA AL MONTO CAPITAL
+                    _p.Monto = MontoTotal / cuotasPendientes;  //SOLO EN ESTE CASO EL MONTO DEL PAGO HACE REFERENCIA AL MONTO CAPITAL
                     _p.Interes = _Cuota_Interes;
                     _p.Mora = 0;
 
@@ -214,7 +214,7 @@ namespace Menu_Principal.Forms
 
         private void CmbFrecuencia_SelectedIndexChanged(object sender, EventArgs e)
         {
-          
+
             CalcMontoCuotas();
         }
 
@@ -265,7 +265,7 @@ namespace Menu_Principal.Forms
                 var fechaPrimerPago = DateTime.Now;
 
 
-                for (DateTime i = DateTime.Now; i.Day-1 != TxtDiaCobro.Value; i = i.AddDays(1))
+                for (DateTime i = DateTime.Now; i.Day - 1 != TxtDiaCobro.Value; i = i.AddDays(1))
                 {
                     if (i.Day == TxtDiaCobro2.Value)
                     {
@@ -287,7 +287,7 @@ namespace Menu_Principal.Forms
 
                 var fechaFinal = fechaPrimerPago.AddDays(Convert.ToInt32(DiasPrestamo));
 
-                for (DateTime i = fechaFinal; i.Day-1 != TxtDiaCobro.Value; i = i.AddDays(1))
+                for (DateTime i = fechaFinal; i.Day - 1 != TxtDiaCobro.Value; i = i.AddDays(1))
                 {
                     if (i.Day == TxtDiaCobro2.Value)
                     {
@@ -308,6 +308,20 @@ namespace Menu_Principal.Forms
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);
             }
+        }
+
+        void LimpiarFormulario() {
+
+            TxtCantCuotas.Text = string.Empty;
+            TxtMonto.Text = string.Empty;
+            TxtCedulaCliente.Text = string.Empty;
+            TxtMonto.Text = string.Empty;
+            TxtmontoCuotas.Text = string.Empty;
+            IDCliente = 0;
+            CmbFrecuencia.SelectedIndex = 0;
+            CmbTaza.SelectedIndex = 0;
+            CmbTipo.SelectedIndex = 0;
+
         }
 
         private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -344,7 +358,8 @@ namespace Menu_Principal.Forms
                     ChkLineaDeCredito.Checked,
                     MtCuota,
                     Convert.ToInt32(TxtDiaCobro.Value),
-                    Convert.ToInt32(TxtDiaCobro2.Value));
+                    Convert.ToInt32(TxtDiaCobro2.Value),
+                    true);
 
                 if (prest.Save())
                 {
@@ -353,24 +368,10 @@ namespace Menu_Principal.Forms
 
                     _IDPrestamo = int.Parse(DB.GetData("Select max(id_Prestamo) as id from TBL_Prestamos")
                                         .Rows[0]["id"].ToString());
-                    /*
-                    foreach (ListViewItem item in LstSociosPrestamo.Items)
-                    {
-
-                        var _Cedula = item.SubItems[0].Text;
-                        var _Porcentaje = (Convert.ToDecimal(item.SubItems[2]
-                            .Text
-                            .Replace("%", "")) / 100).ToString();
-
-                        DB.ExecuteCMD("INSERT INTO Ganancia_Socios (Prestamo,Socio,Porcentaje) " +
-                                       " values (" + _IDPrestamo +
-                                       ",'" + _Cedula +
-                                       "'," + _Porcentaje + ")");
-
-                    }*/
 
                     MessageBox.Show("Done!", "Guardado",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LimpiarFormulario();
                 }
                 else
                     MessageBox.Show("Error al guardar prestamo!", "No Guardado",
@@ -399,10 +400,10 @@ namespace Menu_Principal.Forms
 
                     }
                 }
-
+                LimpiarFormulario();
             }
-            
-            
+
+
         }
         /*
         decimal Porcentaje_Socios()
@@ -514,7 +515,8 @@ namespace Menu_Principal.Forms
                 label13.Visible = false;
                 TxtDiaCobro.Visible = false;
             }
-            else {
+            else
+            {
 
                 label13.Visible = true;
                 TxtDiaCobro.Visible = true;
@@ -527,9 +529,9 @@ namespace Menu_Principal.Forms
             if (ChkLineaDeCredito.Checked)
             {
                 TxtCantCuotas.Text = "1";
-                TxtCantCuotas.Enabled = false;
                 CalcMontoCuotas();
             }
+            TxtCantCuotas.Enabled = !ChkLineaDeCredito.Checked;
         }
 
         private void TxtDiaCobro2_ValueChanged(object sender, EventArgs e)

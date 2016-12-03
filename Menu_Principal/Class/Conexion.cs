@@ -110,7 +110,6 @@ namespace Menu_Principal
 
         public bool ExecuteCMD(string Query, SqlCommand _CMD)
         {
-
             try
             {
                 if (Connect())

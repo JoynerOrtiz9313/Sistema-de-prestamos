@@ -29,6 +29,7 @@ namespace Menu_Principal
         public int DiasCobro { get; set; }
         public int DiasCobro2 { get; set; }
         public decimal MontoCuota { get; set; }
+        public DateTime ProximaFehcaCobro { get; set; }
 
         decimal interesMora;
 
@@ -106,6 +107,7 @@ namespace Menu_Principal
                 DiasCobro2 = dt.Rows[0]["Dia_Cobro2"] == DBNull.Value ? 0 : int.Parse(dt.Rows[0]["Dia_Cobro2"].ToString());
                 LineaCredito = bool.Parse(dt.Rows[0]["LineaCredito"].ToString());
                 MontoCuota = int.Parse(dt.Rows[0]["MontoCuota"].ToString());
+                ProximaFehcaCobro = DateTime.Parse(dt.Rows[0]["FechaProximoPago"].ToString());
                 idprestamo = ID;
 
                 return true;
@@ -124,7 +126,7 @@ namespace Menu_Principal
         public bool Fill(Int32 ID_Client, Int32 _Tipo, Int32 _Frecuencia,
                     Int32 _Cobrador, Int32 _Taza, string _Garantia, decimal _Monto,
                     int _Cuotas, DateTime _fecha, bool _Amortizar, bool _pagado, bool _LienaCredito,
-            decimal _MontoCuota, int _diacobro, int _diacobro2)
+            decimal _MontoCuota, int _diacobro, int _diacobro2, bool _Nuevo)
         {
 
             try
@@ -144,6 +146,7 @@ namespace Menu_Principal
                 MontoCuota = _MontoCuota;
                 DiasCobro = _diacobro;
                 DiasCobro2 = _diacobro2;
+                ProximaFehcaCobro = GetSiguienteFechaPago(_Nuevo);
                 return true;
 
             }
@@ -228,7 +231,7 @@ namespace Menu_Principal
                     if (Amortizar)
                     {
                         DB = new Conexion();
-                        _Interes = MontoCuota - (Monto/cuotas);
+                        _Interes = MontoCuota - (Monto / cuotas);
 
                     }
                     else if (LineaCredito)
@@ -270,22 +273,48 @@ namespace Menu_Principal
 
         }
 
-        public DateTime GetSiguienteFechaPago()
+        public DateTime GetSiguienteFechaPago(bool nuevo)
         {
+
+            int dd, mm, yyyy;
 
             try
             {
-                DB = new Conexion();
-                int dias = Int32.Parse(DB.GetData("Select dias from tbl_frecuencia where id_frecuencia = " + this.frecuencia.ToString()).Rows[0][0].ToString());
-                DateTime FechaUltimoPago = DateTime.Parse(
-                    DB.GetData("select max(fecha) from cuotas where id_prestamo = " +
-                    this.idprestamo.ToString()).Rows[0][0].ToString() == "" ?
-                    DB.GetData("select fecha from tbl_prestamos where id_prestamo = " +
-                    this.idprestamo.ToString()).Rows[0][0].ToString() :
-                    DB.GetData("select max(fecha) from cuotas where id_prestamo = " +
-                    this.idprestamo.ToString()).Rows[0][0].ToString());
 
-                return FechaUltimoPago.AddDays(dias);
+                if (nuevo)
+                {
+
+                    var diaActual = DateTime.Today.Day;
+                    var mesActual = DateTime.Today.Month;
+                    var anioActual = DateTime.Today.Year;
+
+                    if (diaActual > DiasCobro2)
+                    {
+                        dd = DiasCobro;
+                        mm = mesActual == 12 ? 1 : mesActual += 1;
+                        yyyy = mesActual == 12 ? anioActual += 1 : anioActual;
+                    }
+                    else if (diaActual > DiasCobro)
+                    {
+
+                        dd = DiasCobro2;
+                        mm = mesActual;
+                        yyyy = anioActual;
+                    }
+                    else
+                    {
+
+                        dd = DiasCobro;
+                        mm = mesActual;
+                        yyyy = anioActual;
+                    }
+
+                    return Convert.ToDateTime(string.Format("{0}-{1}-{2}", dd, mm, yyyy));
+                }
+
+                DB = new Conexion();
+
+                return ProximaFehcaCobro;
 
             }
             catch (Exception)
@@ -317,7 +346,7 @@ namespace Menu_Principal
                 */
 
 
-                DateTime FechaPago = GetSiguienteFechaPago();
+                DateTime FechaPago = GetSiguienteFechaPago(false);
 
                 int diasDiff = FechaPago.Subtract(DateTime.Now).Days;
                 decimal MontoMora = 0;
@@ -370,7 +399,7 @@ namespace Menu_Principal
                 */
 
 
-                DateTime FechaPago = GetSiguienteFechaPago();
+                DateTime FechaPago = GetSiguienteFechaPago(false);
 
                 int diasDiff = FechaLimite.Subtract(DateTime.Now).Days;
                 decimal MontoMora = 0;
@@ -411,7 +440,7 @@ namespace Menu_Principal
                     decimal _taza = decimal.Parse(DB.GetData("Select porcentaje from taza where id_taza = " +
                                     Taza.ToString()).Rows[0][0].ToString());
 
-                    value = ((Monto)  - BalancePago);
+                    value = ((Monto) - BalancePago);
                 }
                 else
                 {
@@ -465,8 +494,10 @@ namespace Menu_Principal
                 DB = new Conexion();
                 string Query = "";
 
-                Query = "Insert into tbl_Prestamos (id_cliente,monto,taza,frecuencia,cuotas,garantia,tipo,cobrador,fecha,Amortizar,pagado,MontoCuota,dia_cobro,dia_cobro2,LineaCredito)" +
-                        " VALUES (" +
+                Query = @"Insert into tbl_Prestamos (id_cliente,monto,taza,frecuencia,cuotas,
+                        garantia,tipo,cobrador,fecha,Amortizar,pagado,MontoCuota,dia_cobro,
+                        dia_cobro2,LineaCredito,FechaProximoPago)
+                        VALUES (" +
                         ID_Cliente + "," +
                         Monto + "," +
                         Taza + "," +
@@ -481,7 +512,8 @@ namespace Menu_Principal
                         "', " + MontoCuota.ToString() +
                         ", " + DiasCobro.ToString() +
                         ", " + DiasCobro2.ToString() +
-                        ", '" + LineaCredito.ToString() + "')";
+                        ", '" + LineaCredito.ToString() + 
+                        "','" + ProximaFehcaCobro.ToString("dd/MM/yyyy") + "')";
 
                 DB.ExecuteCMD(Query);
 
