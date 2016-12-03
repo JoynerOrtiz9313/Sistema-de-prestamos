@@ -18,7 +18,7 @@ namespace Menu_Principal.Forms
         }
         Conexion DB;
         int IDCliente = 0;
-        decimal totalApagar = 0;
+        //decimal totalApagar = 0;
 
         private void TxtCedulaCliente_Leave(object sender, EventArgs e)
         {
@@ -112,8 +112,8 @@ namespace Menu_Principal.Forms
 
                 var pagos = CalcularPagos(Monto, Taza, CantCuotas, Chk_Amortizar.Checked);
 
-                TxtMontoTotal.Text = pagos.Sum(p => p.Monto + p.Interes).ToString();
-                TxtmontoCuotas.Text = (pagos.Sum(p => p.Monto + p.Interes) / CantCuotas).ToString();
+                TxtMontoTotal.Text = pagos.Sum(p => p.Monto + p.Interes).ToString("0");
+                TxtmontoCuotas.Text = (pagos.Sum(p => p.Monto + p.Interes) / CantCuotas).ToString("0");
 
                 CalcularFechaFinal();
                 //LstPagos.Items.Clear();
@@ -316,12 +316,15 @@ namespace Menu_Principal.Forms
             TxtMonto.Text = string.Empty;
             TxtCedulaCliente.Text = string.Empty;
             TxtMonto.Text = string.Empty;
+            TxtMontoTotal.Text = string.Empty;
             TxtmontoCuotas.Text = string.Empty;
             IDCliente = 0;
+            LblnombreCliente.Text = "-";
             CmbFrecuencia.SelectedIndex = 0;
             CmbTaza.SelectedIndex = 0;
             CmbTipo.SelectedIndex = 0;
 
+            TxtCedulaCliente.Focus();
         }
 
         private void guardarToolStripMenuItem_Click(object sender, EventArgs e)

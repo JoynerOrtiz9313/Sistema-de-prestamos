@@ -185,10 +185,8 @@ namespace Menu_Principal.Forms
                 Limpiar();
 
                 DB = new Conexion();
-                SqlCommand _cmd = new SqlCommand();
-                _cmd.Parameters.Add("@id_Prestamo",SqlDbType.Int).Value = EstePrestamo.ID_Prestamo;
-                _cmd.Parameters.Add("@dias_frecuencia",SqlDbType.Int).Value = EstePrestamo.GetDiasFrecuencia();
-                DB.ExecuteCMD("exec SP_Act_Prestamos_Pagados",_cmd);
+                DB.ExecuteCMD(string.Format("exec SP_Act_Prestamos_Pagados {0}, {1}",
+                            EstePrestamo.ID_Prestamo.ToString(),EstePrestamo.GetDiasFrecuencia().ToString()));
 
             }
             catch (Exception es)
